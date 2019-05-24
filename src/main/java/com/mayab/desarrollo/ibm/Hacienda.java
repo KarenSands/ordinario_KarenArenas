@@ -14,33 +14,27 @@ public class Hacienda implements PersonaNueva{
  
     public String name;
     public String surname;
-    public String Birthday;
     
     public Hacienda() {
         this.name = "Karen";
         this.surname = "Arenas";
-        this.Birthday = "31/03/1998";
     }
 
-    public Hacienda(String name, String surname, String Birthday) {
+    public Hacienda(String name, String surname) {
         this.name = name;
         this.surname = surname;
-        this.Birthday = Birthday;
     } 
 
     
+    @Override
     public String nombre() {
         return name;
     }
 
     
+    @Override
     public String apellido() {
         return surname;
-    }
-
-    
-    public String fecha() {
-        return Birthday;
     }
 }
 

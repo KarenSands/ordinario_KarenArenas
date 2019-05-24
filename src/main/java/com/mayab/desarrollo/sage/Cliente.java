@@ -36,7 +36,7 @@ public class Cliente implements Observable{
     @Override
     public void NotifyObservers(int x){
         for(Gerente p: gerente){
-            p.update(x);
+            p.update(x, 13);
         }
     }
     

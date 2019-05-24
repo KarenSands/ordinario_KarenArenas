@@ -10,6 +10,6 @@ package com.mayab.desarrollo.sage;
  * @author karen
  */
 public interface Observer {
-    public void update(int cant);
+    public void update(int cant, int tiempo);
     
 }

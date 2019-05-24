@@ -24,7 +24,7 @@ public class IbmController {
         System.out.println(pNueva1.nombre());
         System.out.println(pNueva1.apellido());
         
-        System.out.println("Adapter: ");
+        System.out.println("Factura: ");
         System.out.println(pVieja2.nombre());
         System.out.println(pVieja2.apellido());
     }
